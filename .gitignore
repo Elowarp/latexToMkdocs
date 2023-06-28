@@ -161,6 +161,5 @@ cython_debug/
 
 images/*
 *.png
-*.md
 *.tex
 *.pyc
