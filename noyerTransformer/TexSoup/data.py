@@ -6,7 +6,7 @@ objects, but all objects fall into one of the following three categories:
 
 import itertools
 import re
-from TexSoup.utils import CharToLineOffset, Token, TC, to_list
+from .utils import CharToLineOffset, Token, TC, to_list
 
 __all__ = ['TexNode', 'TexCmd', 'TexEnv', 'TexGroup', 'BracketGroup',
            'BraceGroup', 'TexArgs', 'TexText', 'TexMathEnv',

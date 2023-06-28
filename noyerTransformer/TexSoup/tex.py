@@ -1,8 +1,8 @@
-from TexSoup.reader import read_expr, read_tex
-from TexSoup.data import *
-from TexSoup.utils import *
-from TexSoup.tokens import tokenize
-from TexSoup.category import categorize
+from .reader import read_expr, read_tex
+from .data import *
+from .utils import *
+from .tokens import tokenize
+from .category import categorize
 import itertools
 
 

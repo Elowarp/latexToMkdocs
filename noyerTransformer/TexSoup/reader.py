@@ -1,10 +1,10 @@
 """Parsing mechanisms should not be directly invoked publicly, as they are
 subject to change."""
 
-from TexSoup.utils import Token, Buffer, MixedBuffer, CharToLineOffset
-from TexSoup.data import *
-from TexSoup.data import arg_type
-from TexSoup.tokens import (
+from .utils import Token, Buffer, MixedBuffer, CharToLineOffset
+from .data import *
+from .data import arg_type
+from .tokens import (
     TC,
     tokenize,
     SKIP_ENV_NAMES,

@@ -4,10 +4,10 @@ Translates string into iterable `TexSoup.utils.Buffer`, yielding one
 token at a time.
 """
 
-from TexSoup.utils import to_buffer, Buffer, Token, CC
-from TexSoup.data import arg_type
-from TexSoup.category import categorize  # used for tests
-from TexSoup.utils import IntEnum, TC
+from .utils import to_buffer, Buffer, Token, CC
+from .data import arg_type
+from .category import categorize  # used for tests
+from .utils import IntEnum, TC
 import itertools
 import string
 

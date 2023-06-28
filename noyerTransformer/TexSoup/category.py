@@ -1,6 +1,6 @@
 """Categorize all characters into one of category codes."""
 
-from TexSoup.utils import CC, Token, to_buffer
+from .utils import CC, Token, to_buffer
 import string
 
 
